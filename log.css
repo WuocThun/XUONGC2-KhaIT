@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size:1rem;
+  }
+  body{
+    background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover; 
+  }
+  .main-form{
+    width: 100%;
+    height: auto;
+  }
+  .title-register h1{
+    color: white;
+  } 
+  .main-form > form{
+     width: 30%;
+     height: auto;
+     margin: auto;
+     margin-top: 20px;
+     border: 1px solid black;
+     padding: 10px;
+     margin-top: 100px;
+     background-color: black;
+     border-radius: 5px;
+     opacity: 0.8;
+  }
+  .input-groud>input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-block: 10px;
+    border: 1px solid gray;
+  }
+  .object-reg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .select-left {
+    display: flex;
+    align-items: center;
+  }
+  .select-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .select-left > input{
+    border-radius: 50%;
+  }
+  .select-left > span{
+    color: #fff;
+  }
+  .select-right > span{
+    color: white;
+  }
+  .date{
+    width: 100%;
+    border-radius:3px;
+    padding: 10px;
+  }
+  .dates{
+    padding-block: 20px;
+  }
+  .register-form{
+    width: 100%;
+    padding: 10px;
+  }
+  .agree-sercurity > span{
+    color: #fff;
+  }
+  .have-account{
+    display: flex;
+    justify-content: center;
+    color: white;
+  gap: 10px;
+  }
+  /* register */
+  .login-always{
+   padding-block: 10px;
+  }
+  .agree-sercurity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
