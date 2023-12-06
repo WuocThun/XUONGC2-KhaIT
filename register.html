@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="./log.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-form">
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid container-all">
+                  <div class="logo">
+                    <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtfiq3SJ8RWLGeY9vGKrCoXMjLmd99mZJyyA&usqp=CAU" alt="">
+                  </div>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Trang chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./introduce.html">Giới thiệu</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dịch vụ
+                        </a>
+                        <ul class="list-menus">
+                          <li><a class="dropdown-item" href="#">Tổ chức sự kiện</a></li>
+                          <li><a class="dropdown-item" href="#">Trang trí Tiệc cưới</a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#">Đồ cưới</a></li>
+                          <li><a class="dropdown-item" href="#">Backdrop-Bàn Gallery</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Liên hệ</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex search" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+                    </form>
+                    <div class="log">
+                        <a href="./login.html">Đăng nhập</a>
+                        <a href="./register.html">Đăng ký</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <form action="" method="POST">
+             <div class="title-register">
+                <h1 class="text-center">Đăng ký</h1>
+             </div>
+            <div class="input-groud">
+                <input id="name" type="text" class="d-block" placeholder="Họ và tên">
+                <input id="email" type="email"  class="d-block" placeholder="Email">
+                <input id="phonenumber" type="text"  class="d-block" placeholder="Số điện thoại">
+                <input id="password" type="password"  class="d-block" placeholder="Mật khẩu">
+                <input id="confirmPass" type="password"  class="d-block" placeholder="Xác nhận mật khẩu">
+            </div>
+            <div class="select-main">
+                 <span class="text-white">Bạn là?</span>
+                <div class="object-reg">
+                    <div class="select-left">
+                        <input type="checkbox">
+                        <span>Chú rể</span>
+                    </div>
+                    <div class="select-right">
+                        <input type="checkbox">
+                        <span>Cô dâu</span>
+                    </div>
+                </div>
+                <span class="text-white">Bạn đã định ngày cưới?</span>
+                <div class="object-reg">
+                    <div class="select-left">
+                        <input type="checkbox">
+                        <span>Chưa quyết định</span>
+                    </div>
+                    <div class="select-right">
+                        <input type="checkbox">
+                        <span>Quyết định</span>
+                    </div>
+                </div>
+                <div class="dates">
+                  <input type="date" class="date">
+                </div>
+                  <div class="agree-sercurity">
+                    <input type="radio">
+                    <span>Tôi đồng ý với chính sách bảo mật  & Quyền riêng tư</span>
+                  </div>
+                 <button class="register-form">Đăng ký</button>
+                  <div class="have-account">
+                    <span>Đã có tài khoản?</span>
+                    <a href="./login.html">Đăng nhập</a>
+                  </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./validateForm.js"></script>
+</html>
