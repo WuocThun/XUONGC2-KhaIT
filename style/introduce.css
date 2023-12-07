@@ -1,0 +1,43 @@
+.gioithieu{
+    display: flex;  
+    text-align: center;
+    position: relative;  
+    width: 100%;
+    height: auto;  
+margin-top: 100px;
+}
+.noidung{
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#nd{   
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5; /* Ví dụ giá trị */
+}
+.image{
+    padding: 5%;
+}
+
+.list-image img{
+    margin-left: -2%;
+    width: 35%;
+    height: 100%;
+     object-fit: cover;
+}
+.title_nho{
+    max-width: 70%;
+    left: 13%;
+    top: 90%;
+    color: rgb(2, 2, 2);
+    position: absolute;
+    bottom: 0;
+}
+.title_nho>p{
+    font-size: 1.1rem;
+
+}
